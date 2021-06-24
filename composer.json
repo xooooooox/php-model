@@ -1,0 +1,22 @@
+{
+  "name": "xooooooox/model",
+  "type": "library",
+  "description": "php database model",
+  "authors": [
+    {
+      "name": "xooooooox",
+      "email": "718337253@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "illuminate/database": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "xooooooox\\model\\": "./"
+    }
+  },
+  "suggest": {}
+}
